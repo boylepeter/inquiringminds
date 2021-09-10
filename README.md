@@ -29,7 +29,7 @@ This project is an ecommerce platform. Users are able to visit the site, browse 
 ### Deployed: 
 [TBA](TBA)
 
-![image](./src/images/page.gif)
+![image](./front/public/images/page.gif)
 
 ### Contact:
 
