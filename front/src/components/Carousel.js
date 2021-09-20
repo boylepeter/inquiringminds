@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './Carousel.css';
 import China from '../images/china.gif';
 import Cole from '../images/cole.jpg';
 import Spain from '../images/spain.jpg';
