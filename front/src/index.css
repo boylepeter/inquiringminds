@@ -13,3 +13,10 @@ img {
     width: 100%;
     object-fit: contain;
 }
+
+.mainLogo {
+    margin-top: 4%;
+    border: thick solid #f7f7f7;
+    margin-left: 5%;
+    max-width: 90%;
+  }

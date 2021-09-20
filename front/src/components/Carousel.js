@@ -16,22 +16,22 @@ const Slider = () => {
     <div class="carousel-item active">
       <img src={China} class="d-block w-100" alt="..." />
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>China: A Land of Wonder</h5>
+        <p>A brief but surprisingly in depth look at the country, history, and people of the Red Dragon</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src={Cole} class="d-block w-100" alt="..." />
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <h5>Cole Porter</h5>
+        <p>Part of our look into iconic American composers and musicians, Cole Porter was not only ahead of his time, he was a visionary ground breaker</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src={Spain} class="d-block w-100" alt="..." />
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <h5>Spain</h5>
+        <p>Spain has a rich history, fascinating people, and beautiful country, we set out to have a look at all Spain has to offer</p>
       </div>
     </div>
   </div>
