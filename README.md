@@ -21,7 +21,7 @@ Client is a small business who develops and presents educational materials for s
 -[Testing](#Tests)
 
 ## Installation:
-Project was developed using React, bootstrap, react-bootstrap npm's. 
+Project was developed using React, Redux, Express, Node, MongoDB, and Mongoose. 
 ## Instructions:
 This project is an ecommerce platform. Users are able to visit the site, browse presentations, and then pay for and download presentations via integrated paypal options.
 ### Licenses: 
