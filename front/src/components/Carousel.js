@@ -18,7 +18,7 @@ const Slider = () => {
       <img src={China} class="d-block w-100" alt="..." />
       <div class="carousel-caption d-none d-md-block">
         <h5>China: Land of Wonders</h5>
-        <p>A brief but surprisingly in depth look at the country, history, and people of the Red Dragon</p>
+        <p>A brief but in depth look at the country, history, and people of the Red Dragon</p>
       </div>
     </div>
     <div class="carousel-item">
