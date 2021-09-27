@@ -1,4 +1,4 @@
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import CartPage from './pages/CartPage';
 import LibraryPage from './pages/LibraryPage';
@@ -14,7 +14,7 @@ function App() {
   const [sideToggle, setSideToggle] = useState(false);
 
   return (
-    <Router basename={process.env.PUBLIC_URL + "/"}>
+    <Router>
       <Navbar click={() => setSideToggle(true)}/>
       <Backdrop show= {sideToggle} click={() => setSideToggle(false)} />
       <Sidedrawer show= {sideToggle} click={() => setSideToggle(false)} />

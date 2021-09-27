@@ -1,5 +1,5 @@
 import "./PresentationPage.css";
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getPresentationDetails } from '../redux/actions/presentationActions';
 import { addToCart } from '../redux/actions/cartActions';
