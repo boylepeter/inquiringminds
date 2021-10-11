@@ -15,7 +15,7 @@ function App() {
   const [sideToggle, setSideToggle] = useState(false);
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Navbar click={() => setSideToggle(true)}/>
       <Backdrop show= {sideToggle} click={() => setSideToggle(false)} />
       <Sidedrawer show= {sideToggle} click={() => setSideToggle(false)} />
