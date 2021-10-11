@@ -6,6 +6,7 @@ import PresentationPage from './pages/PresentationPage';
 import Navbar from './components/Navbar';
 import Backdrop from './components/Backdrop';
 import Sidedrawer from './components/Sidedrawer';
+import Footer from "./components/Footer";
 import {useState} from 'react';
 
 
@@ -26,6 +27,7 @@ function App() {
             <Route exact path="/cart" component={CartPage}></Route>
           </Switch>
         </main>
+        <Footer />
     </Router>
   );
 }

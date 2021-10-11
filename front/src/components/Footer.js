@@ -4,6 +4,7 @@ import Spain from "../images/spain.jpg";
 import Cole from "../images/cole.jpg";
 import West from "../images/west.png";
 import Ireland from "../images/ireland.png";
+import "./Footer.css";
 
 const Footer = () => {
     return (
@@ -47,6 +48,8 @@ const Footer = () => {
             </div>
             <div className="footer-copyright text-center py-3"> Inquiring Minds LLC || Contact us at rosanne.losee@gmail.com
             </div>
+            <div className="disclaimer">
+                The materials on this site are the sole property of Inquiring Minds Lifelong Learning and are intended for the enjoyment of residents of the facility designated - under the supervision of the Lifestyle Manager.  Cannot be copied, distributed, or allowed to leave the facility premises.</div>
         </footer>
 
     );

@@ -2,6 +2,7 @@ import './Presentation.css';
 import { Link } from 'react-router-dom';
 
 const Presentation = ({title, imgUrl, info, alt, category, presentationId}) => {
+
     return (
         <div className="presentation">
             <img src={imgUrl} alt={alt} />

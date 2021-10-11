@@ -1,4 +1,5 @@
 import 'bootstrap';
+import './About.css';
 import Image from '../images/foundercut2.png';
 
 const About = () => {

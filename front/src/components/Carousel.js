@@ -18,21 +18,21 @@ const Slider = () => {
     <div className="carousel-item active">
       <img src={China} className="d-block w-100" alt="..." />
       <div className="carousel-caption d-none d-md-block">
-        <h5><Link to="/presentation/61391b38a87507c3e5087869">China: Land of Wonders</Link></h5>
+        <h5><Link className="carousel-link" to="/presentation/61391b38a87507c3e5087869">China: Land of Wonders</Link></h5>
         <p>A brief but in depth look at the country, history, and people of the Red Dragon</p>
       </div>
     </div>
     <div className="carousel-item">
       <img src={Cole} className="d-block w-100" alt="..." />
       <div className="carousel-caption d-none d-md-block">
-        <h5><Link to="/presentation/61391b38a87507c3e5087874">Unforgettable American Composers: Cole Porter</Link></h5>
+        <h5><Link className="carousel-link" to="/presentation/61391b38a87507c3e5087874">Unforgettable American Composers: Cole Porter</Link></h5>
         <p>Part of our look into iconic American composers and musicians, Cole Porter was not only ahead of his time, he was in a class of his own</p>
       </div>
     </div>
     <div className="carousel-item">
       <img src={Spain} className="d-block w-100" alt="..." />
       <div className="carousel-caption d-none d-md-block">
-        <h5><Link to="/presentation/61391b38a87507c3e508786e">Spain: Land of Contrasts</Link></h5>
+        <h5><Link className="carousel-link" to="/presentation/61391b38a87507c3e508786e">Spain: Land of Contrasts</Link></h5>
         <p>Spain has a rich history, fascinating people, and beautiful country, we set out to have a look at all Spain has to offer</p>
       </div>
     </div>

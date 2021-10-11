@@ -1,5 +1,4 @@
 import "./HomePage.css";
-import Footer from "../components/Footer";
 import About from "../components/About";
 import Slider from "../components/Carousel";
 import Logo from "../components/Logo";
@@ -10,7 +9,6 @@ const HomePage = () => {
         <Logo />
         <About />
         <Slider />
-        <Footer />
         </>
     )
 };

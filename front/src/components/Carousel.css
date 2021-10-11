@@ -1,3 +1,8 @@
 .carouselExampleCaptions{
     max-width: 90%;
 }
+
+.carousel-link{
+    text-decoration: none;
+    color: white;
+}
