@@ -5,10 +5,10 @@ import { getPresentationDetails } from '../redux/actions/presentationActions';
 import { addToCart } from '../redux/actions/cartActions';
 
 const PresentationPage = ({ match, history }) => {
-
     const dispatch = useDispatch();
     const presentationDetails = useSelector(state => state.getPresentationDetails);
     const { loading, error, presentation } = presentationDetails;
+    console.log(presentation);
 
     useEffect(() => {
         if (presentation && match.params.id !== presentation._id) {
@@ -27,7 +27,7 @@ const PresentationPage = ({ match, history }) => {
                 <>
                     <div className="presentation-left">
                         <div className="presentation-left-image">
-                            <img src={presentation.imgUrl} alt={presentation.alt} />
+                            <img crossOrigin="anonymous" src={presentation.imgUrl} alt={presentation.alt} />
                         </div>
                         <div className="presentation-left-desc">
                             <p className="presentation-left-title">{presentation.title}</p>
@@ -42,8 +42,8 @@ const PresentationPage = ({ match, history }) => {
                         <p><button className="add-btn" onClick={addToCartHandler}>Add To Cart</button></p>
                     </div>
                 </>
-            )}
-
+             )
+            }
         </div>
     )
 };

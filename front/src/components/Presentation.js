@@ -5,7 +5,7 @@ const Presentation = ({title, imgUrl, info, alt, category, presentationId}) => {
 
     return (
         <div className="presentation">
-            <img src={imgUrl} alt={alt} />
+            <img crossOrigin="anonymous" src={imgUrl} alt={alt} />
             <div className="presentation-desc">
                 <p className="presentation-title">{title}</p>
                 <p className="presentation-info">{info.substring(0, 100)}...</p>

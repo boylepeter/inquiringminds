@@ -3,10 +3,8 @@ import "bootstrap";
 
 const MainLogo = () => {
     return (
-        <div className="row">
-        <div className="logContainer col-sm-12">
+        <div className="logo-container">
             <img className="mainLogo img-responsive img-fluid" src={Logo} alt="Inquiring Minds Logo" />
-        </div>
         </div>
     );
 }; 

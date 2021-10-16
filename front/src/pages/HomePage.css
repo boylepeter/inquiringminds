@@ -2,6 +2,11 @@
     margin-top: 1%;
     border: thick solid #f7f7f7;
     max-width: 90%;
+    margin-left: 0%;
+  }
+
+  .logo.container {
+    width: 100%;
   }
 
 .about {
