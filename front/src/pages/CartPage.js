@@ -64,6 +64,7 @@ const CartPage = () => {
                     <p id="cart-price">Total: ${getCartPrice()}.00</p>
                 </div>
                 <div><button className="return-btn"><Link className="return-btn" to="/library">Continue Shopping</Link></button></div>
+                <button>Checkout</button>
             </div>
         </div>
     )
