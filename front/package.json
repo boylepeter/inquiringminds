@@ -2,7 +2,7 @@
   "name": "front",
   "version": "0.1.0",
   "proxy": "http://127.0.0.1:5000",
-  "homepage": "https://boylepeter.github.io/inquiringminds/",
+  "homepage": "https://trusting-hoover-450713.netlify.app/index/",
   "private": true,
   "dependencies": {
     "@popperjs/core": "^2.10.1",
