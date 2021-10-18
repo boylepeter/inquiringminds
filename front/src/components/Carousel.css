@@ -1,5 +1,6 @@
-.carouselExampleCaptions{
+#carouselExampleCaptions{
     max-width: 90%;
+    margin-left: 5%;
 }
 
 .carousel-link{

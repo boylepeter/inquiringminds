@@ -47,46 +47,7 @@ const CartPage = () => {
         else if (cartItems.length === 10){
             return 700
         }
-    }
-
-    // const [paidFor, setPaidFor] = useState(false);
-    // const [loaded, setLoaded] = useState(false);
-    // let paypalRef = useRef();
-
-    // const product = {
-    //     price: 100,
-    //     description: "",
-    // }
-
-    // useEffect(() => {
-    //     const script = document.createElement("script");
-    //     script.src = "https://www.paypal.com/sdk/js?client-id=AZ6muoGQ0ojogEjaoTDji3fP8H7nH8j0itO71Kl6nBeeFZ04KWNVWySKZfWl08UZwU7PxknBRZwQA__P";
-    //     script.addEventListener("load", ()=> setLoaded(true));
-    //     document.body.appendChild(script);
-    //     if (loaded){
-    //         setTimeout(() => {
-    //             window.paypal.Buttons({
-    //                 createOrder: (data, actions) =>{
-    //                     return actions.order.create({
-    //                         purchase_units: [{
-    //                             description: product.description,
-    //                             amount: {
-    //                                 currency_code: "USD",
-    //                                 value: getCartPrice()
-    //                             }
-    //                         }]
-    //                     });
-    //                 },
-    //                 onApprove: async(data, actions) =>{
-    //                     const order = await actions.order.capture();
-    //                     setPaidFor(true);
-    //                     console.log(order);
-    //                 }
-    //             }).render(paypalRef);
-    //         })
-    //     }
-    // });
-
+    };
 
     return (
         <div className="cartscreen">
@@ -99,10 +60,9 @@ const CartPage = () => {
             </div>
             <div className="cartscreen-right">
                 <div className="cartscreen-info">
-                    <p>Items ({getCartCount()})</p>
-                    <p>Total: ${getCartPrice()}.00</p>
+                    <p id="cart-count">Items ({getCartCount()})</p>
+                    <p id="cart-price">Total: ${getCartPrice()}.00</p>
                 </div>
-                {/* {paidFor ? (<div>Congrats, you just paid</div>) : (<div ref={v=>(paypalRef = v)} />)} */}
                 <div><button className="return-btn"><Link className="return-btn" to="/library">Continue Shopping</Link></button></div>
             </div>
         </div>

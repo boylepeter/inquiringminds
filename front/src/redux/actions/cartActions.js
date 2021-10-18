@@ -12,6 +12,7 @@ export const addToCart = (id) => async (dispatch, getState) => {
             imgUrl: data.imgUrl,
             info: data.info,
             alt: data.alt,
+            driveUrl: data.driveUrl,
             category: data.category
         }
     })
@@ -26,4 +27,4 @@ export const removeFromCart = (id) => (dispatch, getState) => {
     })
     
     localStorage.setItem('cart', JSON.stringify(getState().cart.cartItems))
-}
+};

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "homepage": "https://boylepeter.github.io/inquiringminds/",
+  "homepage": "https://trusting-hoover-450713.netlify.app/",
   "scripts": {
     "start": "node back/server.js",
     "server": "nodemon back/server.js",
@@ -20,7 +20,8 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "gh-pages": "^3.2.3",
-    "mongoose": "^6.0.2"
+    "mongoose": "^6.0.2",
+    "paypal-rest-sdk": "^1.8.1"
   },
   "devDependencies": {
     "concurrently": "^6.2.1",

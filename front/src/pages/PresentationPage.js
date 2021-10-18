@@ -4,11 +4,11 @@ import { useDispatch, useSelector } from 'react-redux';
 import { getPresentationDetails } from '../redux/actions/presentationActions';
 import { addToCart } from '../redux/actions/cartActions';
 
+
 const PresentationPage = ({ match, history }) => {
     const dispatch = useDispatch();
     const presentationDetails = useSelector(state => state.getPresentationDetails);
-    const { loading, error, presentation } = presentationDetails;
-    console.log(presentation);
+    const { loading, presentation } = presentationDetails;
 
     useEffect(() => {
         if (presentation && match.params.id !== presentation._id) {
@@ -23,7 +23,7 @@ const PresentationPage = ({ match, history }) => {
 
     return (
         <div className="presentation-screen">
-            {loading ? (<h2>Loading...</h2>) : error ? (<h2>{error}</h2>) : (
+            {loading ? (<h2>Loading...</h2>) : (
                 <>
                     <div className="presentation-left">
                         <div className="presentation-left-image">
@@ -46,6 +46,6 @@ const PresentationPage = ({ match, history }) => {
             }
         </div>
     )
-};
+}
 
 export default PresentationPage;

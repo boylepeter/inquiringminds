@@ -9,7 +9,6 @@ import Sidedrawer from './components/Sidedrawer';
 import Footer from "./components/Footer";
 import {useState} from 'react';
 
-
 function App() {
 
   const [sideToggle, setSideToggle] = useState(false);

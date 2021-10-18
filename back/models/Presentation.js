@@ -20,6 +20,10 @@ const presentationSchema = new mongoose.Schema({
     category: {
         type: Array,
         required: true
+    },
+    driveUrl: {
+        type: String,
+        required: true
     }
 });
 
