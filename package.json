@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "homepage": ".",
+  "homepage": "https://trusting-hoover-450713.netlify.app/index/",
   "scripts": {
     "start": "node back/server.js",
     "server": "nodemon back/server.js",
